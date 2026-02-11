@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Katzen-Chaos</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <div id="game-container">
+        <div id="tutorialScreen">
+            <img id="tutorialImage" src="images/Tutorial.jpg" alt="Tutorial">
+            <button id="playButton">Play</button>
+        </div>
+
+        <div id="endScreen" style="display: none;">
+            <h1>Glückwunsch!</h1>
+            <div class="end-stats">
+                <p>Alle Level geschafft!</p>
+                <p class="score-display">Gesamtpunkte: <span id="finalScore">0</span></p>
+            </div>
+            <button id="restartButton">Nochmal spielen</button>
+        </div>
+
+        <canvas id="gameCanvas" style="display: none;"></canvas>
+        
+        <div id="ui" style="display: none;">
+            <div class="stat">Level: <span id="level">1</span></div>
+            <div class="stat">Punkte: <span id="score">0</span></div>
+            <div class="stat">Gerettet: <span id="rescued">0</span>/<span id="target">3</span></div>
+        </div>
+    </div>
+
+    <script type="module" src="js/main.mjs"></script>
+</body>
+</html>
