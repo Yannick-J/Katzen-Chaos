@@ -5,12 +5,12 @@ Ein interaktives Mobile-Spiel, bei dem Katzen durch Touch-Gesten hypnotisiert, g
 ## Screenshots
 
 <p align="center">
-  <img src="screenshots/tutorial.png" width="300" alt="Tutorial">
+  <img src="screenshots/tutorialHD.png" width="300" alt="Tutorial">
 </p>
 
 <p align="center">
-  <img src="screenshots/level1.png" width="350" alt="Level 1 - Wohnzimmer">
-  <img src="screenshots/level2.png" width="350" alt="Level 2 - Bad">
+  <img src="screenshots/level1HD.png" width="350" alt="Level 1 - Wohnzimmer">
+  <img src="screenshots/level2HD.png" width="350" alt="Level 2 - Bad">
 </p>
 ## Technologien
 
